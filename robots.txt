@@ -4,22 +4,22 @@
 User-agent: *
 Allow: /
 
-# Bloquear o Google
+# Permitir o Google
 User-agent: Googlebot
-Disallow: /
+Allow: /
 
-# Também bloquear bots paralelos do Google (Google-Extended, GoogleOther, etc.)
+# Também permitir bots paralelos do Google (Google-Extended, GoogleOther, etc.)
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: GoogleOther
-Disallow: /
+Allow: /
 
 User-agent: GoogleOther-Image
-Disallow: /
+Allow: /
 
 User-agent: GoogleOther-Video
-Disallow: /
+Allow: /
 
 # Permitir o Bing
 User-agent: Bingbot
@@ -39,12 +39,12 @@ Allow: /
 #User-agent: cohere-ai
 #User-agent: Diffbot
 #User-agent: DuckAssistBot
-User-agent: FacebookBot
+#User-agent: FacebookBot
 #User-agent: FriendlyCrawler
-User-agent: Google-Extended
-User-agent: GoogleOther
-User-agent: GoogleOther-Image
-User-agent: GoogleOther-Video
+#User-agent: Google-Extended
+#User-agent: GoogleOther
+#User-agent: GoogleOther-Image
+#User-agent: GoogleOther-Video
 #User-agent: GPTBot
 #User-agent: iaskspider/2.0
 #User-agent: ICC-Crawler
@@ -52,8 +52,8 @@ User-agent: GoogleOther-Video
 #User-agent: img2dataset
 #User-agent: ISSCyberRiskCrawler
 #User-agent: Kangaroo Bot
-User-agent: Meta-ExternalAgent
-User-agent: Meta-ExternalFetcher
+#User-agent: Meta-ExternalAgent
+#User-agent: Meta-ExternalFetcher
 #User-agent: OAI-SearchBot
 #User-agent: omgili
 #User-agent: omgilibot
@@ -66,4 +66,4 @@ User-agent: PerplexityBot
 #User-agent: VelenPublicWebCrawler
 #User-agent: Webzio-Extended
 #User-agent: YouBot
-#Disallow: /
+Disallow: /
